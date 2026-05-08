@@ -212,7 +212,7 @@ export default function DiscoverPage() {
                                     <Sparkles className="h-3.5 w-3.5" />
                                   </Button>
                                   {prospect.website && (
-                                    <Button variant="ghost" size="icon" className="h-7 w-7" asChild>
+                                    <Button variant="ghost" size="icon" className="h-7 w-7">
                                       <a href={`https://${prospect.website}`} target="_blank" rel="noopener noreferrer">
                                         <ExternalLink className="h-3.5 w-3.5" />
                                       </a>
